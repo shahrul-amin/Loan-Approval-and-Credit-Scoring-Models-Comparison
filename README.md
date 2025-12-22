@@ -129,26 +129,3 @@ Based on comprehensive evaluation:
 - **Loan Approval**: Gradient Boosting Classifier
 
 Both selected models provide the best balance of accuracy, reliability, and interpretability for deployment in a production banking system.
-
-## Technologies Used
-
-- **Python Libraries**: pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn
-- **Machine Learning Techniques**: Ensemble methods, neural networks, linear models, SVM
-- **Evaluation Metrics**: MAE, RMSE, R², Accuracy, ROC-AUC, F1-Score, Precision, Recall
-
-## Repository Structure
-
-```
-├── auto_loan_models.ipynb          # Main notebook with model training and evaluation
-├── data/
-│   ├── malaysian_credit_scoring_data.csv
-│   └── malaysian_loan_approval_data.csv
-├── figures/
-│   ├── Class Diagram.png
-│   ├── credit_feature_importance.png
-│   ├── loan_confusion_matrix.png
-│   ├── loan_feature_importance.png
-│   ├── loan_precision_recall_curves.png
-│   └── loan_roc_curves.png
-└── README.md
-```
